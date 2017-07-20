@@ -474,6 +474,13 @@ h4 {
 }
 
 @media (max-width: 800px) {
+  html {
+    box-shadow: none;
+    padding: 0;
+  }
+  .post-aside {
+    display: none;
+  }
   /* HEADER STYLES */
     .header-nav {
       padding: 2vh 1em 0 0;
